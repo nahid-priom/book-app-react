@@ -67,8 +67,7 @@ const Header = () => {
         {/* Navigation Drawer */}
         {isNavOpen && (
           <div className="md:hidden absolute top-20 left-0 w-full bg-white">
-            {/* Include your navigation links here */}
-            {/* Example: */}
+            
             <ul className="p-4">
               <li className="text-base text-black font-bold hover:text-orange-700 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
                 Home
